@@ -9,28 +9,31 @@
             align-items: center;
             background-color: #D4A5FF;
         }
-        @keyframes kiss{
-            0%{
+        .kisses {
+            font-size: 50px; /* Ajusta el tamaño del corazón */
+            animation: kiss 1s infinite;
+        }
+        @keyframes kiss {
+            0% {
                 transform: translateY(0);
                 opacity: 1;
             }
-            50%{
-                transform:translateY(-50px);
+            50% {
+                transform: translateY(-50px);
                 opacity: 0.8;
             }
             100% {
                 transform: translateY(-100px);
                 opacity: 0;
             }
-
         }
-        h1, h2, p{
-            color: #E91563;
+        h1, h2, p {
+            color: #E91E63; 
         }
         p {
-            color:#7B1B1B;
-        }
-        </style>         
+            color: #7B1B1B;
+ }
+    </style>
 </head>
 <body>
     <h1>Obvio eres tú Diana</h1>
@@ -42,7 +45,8 @@
 
     <img src="fotoDiana.jpg" width="600" height="400" align="left"/>
 
-<div class="kisses">
+    <!-- Aquí se añade el corazón que lanza besos -->
+    <div class="kisses">
      ❤️
     </div>
 </body>
